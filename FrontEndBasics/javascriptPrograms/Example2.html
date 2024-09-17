@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <script>
+        function styleByClass()
+        {
+            var arr = document.getElementsByClassName("box");
+            arr[0].style = "background-color: orange;";
+            arr[1].style = "background-color: yellow;";
+        }
+
+        function textByTag()
+        {
+            
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p class = "box">I have class box</p>
+        <p class = "box">I have class box</p>
+        <p>I dont have have any class</p>
+        <button onclick="styleByClass()">Style By class</button>
+        <button onclick=""> </button>
+    </div>
+    
+</body>
+</html>

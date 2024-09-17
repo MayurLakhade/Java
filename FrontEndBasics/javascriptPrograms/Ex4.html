@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            let text = "a";
+
+            for(let i = 0 ; i < 5; i++)
+            {
+                text += "The number is"+ i + "<br>";
+            }
+        </script>
+
+        <script>
+            const person = { fname : "Mayuresh", lname : "Rathod", age : 25};
+            let txt = "";
+
+            for(let x in person)
+            {
+                txt+= person[x]+" ";
+            }
+            document.getElementById("demo").innerHTML=txt;
+        </script>
+    </body>
+</html>

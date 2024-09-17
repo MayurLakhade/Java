@@ -1,0 +1,46 @@
+/* this is css file for question 1) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* .box1{
+
+    background-color: aqua;
+
+}
+
+.box2{
+
+    background-color: red;
+}
+
+.box3{
+
+    background-color: green;
+} */
+
+iframe{
+
+    width: 90%;
+    height: 50%;
+}
+
+.box1,.box2,.box3{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}

@@ -1,0 +1,47 @@
+<!--
+    CSS: Cascading Style sheet.
+    We can style our web page by using css in the following ways:-
+    1) Inline styling: In this we use style attribute to give styling to the element.
+    Syntax: style=""
+
+    2) Internal styling: In this we use style tag to give styling.
+    Syntax: <style>propety:value;</style>
+    elements can be specified in following ways:
+    a) tagname
+    b) id: use #idName
+    c) class: use .className
+    Note: id should not be repeated. Meaning same id should not be given to more than one element.
+    class names can be repeated.
+
+    3) External styling: In this we use a separeate css file to do this.
+-->
+<title>Insert title here</title>
+<style>
+    p{
+        border-style: solid; 
+        border-color: red3;
+        background-color: azure;
+        height: 150px;
+        width: 150px;
+        position: relative;
+        left: 120px;
+    }
+    #para1{
+        background-color: rgb(242, 255, 0);
+    }
+    #para2{
+        background-color: green;
+    }
+    #para3{
+        background-color: blueviolet;
+    }
+    .box{
+        color: white;
+    }
+</style>
+<div style="border-style: solid; border-color: red3; height: 600px; width: 400px;">
+    <h1 class="box"> Hello Everyone!!!</h1>
+    <p class="box" id = "para1">I am para1</pid></p>
+    <p id = "para2">I am para2</p>
+    <p class="box" id = "para3">I am para3</p>
+</div>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h2> Java Script if...else</h2>
+
+        <p id="demo"></p>
+        
+        <form action="">
+            <label for="age">Age: </label>
+        <input type="text" id="Age", name="Age"><br><br>
+        <input type="button", value="Button", onclick="ageCheck()">
+        </form>
+
+        <script>
+            function ageCheck()
+            {
+            let age = document.getElementById("Age").value;
+            let message;
+            if(age>18)
+            {
+                message = "You are eligible for vote";
+
+            }
+            else
+            {
+                message = "you are not eligible for vote";
+            }
+        
+            document.getElementById("demo").innerHTML=message;
+        }
+        </script>
+    </body>
+</html>

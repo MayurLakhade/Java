@@ -1,0 +1,44 @@
+
+<!--
+    Table tag is used to create a table on our web page
+    inside the table tag we mainly use folowing tabs:-
+    1) tr :- used to create rows
+    2) td :- each row will have many cells. each cell is dedfined by td tag.
+    3) th :- this tag also works same as td to create cells in row but in th the words are highlighted and we use it to create the heading 
+             of each column.
+-->
+<h1>Home Page</h1>
+<table border="2" style="height: 500px; width: 500px; text-align: center;"  align = "center">
+    <caption>Trainer info</caption>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Subject</th>
+        </tr>
+    </thead>
+    
+    <tbody>
+        <tr>
+            <td>101</td>
+            <td>Mohak</td>
+            <td>Java</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Mukesh</td>
+            <td rowspan="2" > Python</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Prashant</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3" >thank you</td>
+        </tr>
+    </tfoot>
+    
+</table>

@@ -1,0 +1,17 @@
+Difference between Statement and PreparedStatement:
+1) Statement is parent interface
+PreparedStatement extends Statement.
+
+2) When using Statement the sql query is passed at the last moment when we call
+   executeUpdate(sql) or executeQuery(sql).
+   When using PreparedStatement the query is passed when we are creating the Prepared Atatement object.
+
+3) Statement does not pre compile the sql query.
+   PreparedStatement pre compiles the sql query.
+
+4) Statement is used when the query is fixed and same query needs to be executed again and again without
+   any changes.
+    PreparedStatement is used when we want to change the values every time we want to execute it.
+
+5) Statements commonly used for select type query.
+   Insert, update, delete type queries are executed with the help of PreparedStatement.

@@ -1,0 +1,18 @@
+Difference bewtween wait and sleep methods?
+Answer:-
+
+sleep :-
+1) sleep method will pause the thread for the given number of seconds, as soon as the time passes
+   the thread will become active again.
+
+2) sleep is a static method of Thread class
+
+3) sleep is not used for inter-thread communication.
+
+wait:-
+1) wait method will forcefully make the thread to leave the object and wait outside until it receives
+   the notification from other thread via notify().
+
+2) wait is an instance method of object class.
+
+3) wait is used for inter-thread communication.

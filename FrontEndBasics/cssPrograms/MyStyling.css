@@ -1,0 +1,28 @@
+p{
+    /*
+    As you can see the comment in css file is different from html comment.
+
+    colors can be given by
+    1) color name like red, yellow etc.
+    2) hexadecimal code: these can be searched from internate. They are combination of letters and numbers.
+    3) rgb ratio: it gives the ratio of red green and blue to make a unique color.
+    */
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    border-style: dashed;
+    border-color: rgb(rgb(255, 170, 0), rgb(45, 128, 0), rgb(115, 0, 255));
+    /*
+    Border radius is used to make the corners of our element a little blunt.
+    If we give 50% radius value then the element will become circle.
+    */
+    border-radius: 50%; 
+    box-shadow: 2px 2px red;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+
+}

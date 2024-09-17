@@ -1,0 +1,17 @@
+1)Difference between c++ and java?
+2)what is the difference between instance variable and local variable?
+3)What is the syntax of constructor? How do we create it?
+4)Can a constructor be private?
+5)Defination of a class?
+6)What is abstraction?
+7)Difference between sleep and wait method?
+
+Q-1) take two words from user
+check if they are made with same letters
+dusty and study--> Check if two words are anagram or not.
+dusty and study
+dusty and bus
+
+Q-2) take the user input as password from user
+check if the password contains at least one special character,
+one number, one upper case.

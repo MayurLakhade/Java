@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function display(x)
+        {
+            var obj = document.getElementById("box");
+            obj.innerText = "Value passed = "+x;
+        }
+    </script>
+</head>
+<body>
+    <p id="box"></p>
+    <button onclick="display('Man')">pass String</button>
+    <button onclick="display(10)">Pass int</button>
+    <button onclick="display(true)">pass boolean</button>
+    <button onclick="display(78.99, 'Mohak')">pass float</button>
+    
+</body>
+</html>

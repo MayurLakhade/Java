@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function displayHi()
+        {
+            var obj = document.getElementById("para1");
+            //obj.innerHTML = "<b>Hi</b>";
+            obj.style = "background-color: violet; height: 200px; width: 300px";
+
+        }
+        function displayBye()
+        {
+            var obj = document.getElementById("para1");
+            //obj.innerHTML="<b>Bye</b>";
+            obj.style = "background-color: green; height: 260px; width: 150px";
+        }
+    </script>
+</head>
+<body>
+    <p id="para1" onmouseenter="displayHi()" onmouseleave="displayBye()" style="background-color:rgb(238, 255, 0) ; height: 100px; width: 150px;"></p>
+</body>
+</html>
